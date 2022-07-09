@@ -1,0 +1,30 @@
+/*style.css*/
+
+div{
+    font-family: Verdana;
+}
+#content {
+    background-color: #33D298;
+    width: 500px;
+    height: 200px;
+    margin: 50px;
+    font-size: 30px;
+}
+
+#content .other-text{
+    background-color: pink;
+}
+
+.other-text{
+    background-color: blue;
+}
+
+.has-error {
+    color: white;
+    background-color: red !important;
+}
+
+.has-error:hover {
+    color: white;
+    background-color: yellow !important;
+}
